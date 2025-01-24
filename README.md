@@ -7,6 +7,7 @@ This repository provides a guide to set up the necessary resources in Azure for 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
+
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
@@ -21,13 +22,10 @@ This repository provides a guide to set up the necessary resources in Azure for 
 
 **2. Create a Resource Group**
 
-    - Navigate to Resource Groups.
-
-    - Select Create.
-
-    - Provide a Resource Group Name and select a region.
-
-    - Click Review + Create and then Create.
+- Navigate to Resource Groups.
+- Select Create.
+- Provide a Resource Group Name and select a region.
+- Click Review + Create and then Create.
 
 <img width="493" alt="Screenshot 2025-01-23 at 8 11 51 PM" src="https://github.com/user-attachments/assets/391ac58f-6ed7-48ec-a99d-e7d92e3290a8" />
 <img width="751" alt="Screenshot 2025-01-23 at 8 12 06 PM" src="https://github.com/user-attachments/assets/d6b4c864-0b91-4493-8f53-75252b975286" />
@@ -35,23 +33,15 @@ This repository provides a guide to set up the necessary resources in Azure for 
 
 **3. Create a Windows 10 Virtual Machine**
 
-    - Navigate to Virtual Machines.
-
-    - Select Create > Virtual Machine.
-
-    - Provide the following details:
-
-      - Resource Group: Select the Resource Group created earlier.
-
-      - VM Name: Enter a name for your Windows 10 VM.
-
-      - Image: Choose "Windows 10".
-
-      - Authentication Type: Username/Password.
-
-      - Allow Azure to create a new Virtual Network (VNet) and Subnet.
-
-    - Configure other settings as needed and click Review + Create and then Create.
+- Navigate to Virtual Machines.
+- Select Create > Virtual Machine.
+- Provide the following details:
+    - Resource Group: Select the Resource Group created earlier.
+    - VM Name: Enter a name for your Windows 10 VM.
+    - Image: Choose "Windows 10".
+    - Authentication Type: Username/Password.
+    - Allow Azure to create a new Virtual Network (VNet) and Subnet.
+- Configure other settings as needed and click Review + Create and then Create.
 
 <img width="552" alt="Screenshot 2025-01-23 at 8 12 42 PM" src="https://github.com/user-attachments/assets/35f18552-f163-42dd-a1b8-6c134474450e" />
 <img width="555" alt="Screenshot 2025-01-23 at 8 12 57 PM" src="https://github.com/user-attachments/assets/82c89b5b-fa0e-40d5-a7d6-fa87fe234d29" />
@@ -60,25 +50,16 @@ This repository provides a guide to set up the necessary resources in Azure for 
 
 **4. Create a Linux (Ubuntu) Virtual Machine**
 
-    - Navigate to Virtual Machines.
-
-    - Select Create > Virtual Machine.
-
-    - Provide the following details:
-
-      - Resource Group: Select the same Resource Group used for the Windows 10 VM.
-
-      - VM Name: Enter a name for your Linux (Ubuntu) VM.
-
-      - Image: Choose "Ubuntu Server".
-
-      - Authentication Type: Username/Password.
-
-      - Virtual Network: Select the previously created Virtual Network.
-
-      - Subnet: Ensure it matches the Subnet of the Windows 10 VM.
-
-    - Configure other settings as needed and click Review + Create and then Create.
+- Navigate to Virtual Machines.
+- Select Create > Virtual Machine.
+- Provide the following details:
+    - Resource Group: Select the same Resource Group used for the Windows 10 VM.
+    - VM Name: Enter a name for your Linux (Ubuntu) VM.
+    - Image: Choose "Ubuntu Server".
+    - Authentication Type: Username/Password.
+    - Virtual Network: Select the previously created Virtual Network.
+    - Subnet: Ensure it matches the Subnet of the Windows 10 VM.
+- Configure other settings as needed and click Review + Create and then Create.
 
 <img width="590" alt="Screenshot 2025-01-23 at 8 14 29 PM" src="https://github.com/user-attachments/assets/8d61e13a-a726-4966-94aa-7e3c594a4467" />
 <img width="591" alt="Screenshot 2025-01-23 at 8 14 50 PM" src="https://github.com/user-attachments/assets/608a091a-568e-4fb5-aa28-df57a565dc9e" />
@@ -86,8 +67,7 @@ This repository provides a guide to set up the necessary resources in Azure for 
 
 
 **5. Verify Setup**
-
-    - Ensure both VMs are in the same Virtual Network and Subnet.
+- Ensure both VMs are in the same Virtual Network and Subnet.
 
 
 
