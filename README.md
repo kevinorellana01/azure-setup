@@ -16,10 +16,10 @@ This repository provides a guide to set up the necessary resources in Azure for 
 <img width="387" alt="Screenshot 2025-01-23 at 8 10 04 PM" src="https://github.com/user-attachments/assets/886eb6b5-b6c1-4b4b-ae98-8415a69a6a3b" />
 
 
-1. Access Azure Portal
+**1. Access Azure Portal**
     - Open the [Azure](https://portal.azure.com/) Portal.
 
-2. Create a Resource Group
+**2. Create a Resource Group**
 
     - Navigate to Resource Groups.
 
@@ -33,7 +33,7 @@ This repository provides a guide to set up the necessary resources in Azure for 
 <img width="751" alt="Screenshot 2025-01-23 at 8 12 06 PM" src="https://github.com/user-attachments/assets/d6b4c864-0b91-4493-8f53-75252b975286" />
 
 
-3. Create a Windows 10 Virtual Machine
+**3. Create a Windows 10 Virtual Machine**
 
     - Navigate to Virtual Machines.
 
@@ -58,7 +58,7 @@ This repository provides a guide to set up the necessary resources in Azure for 
 <img width="581" alt="Screenshot 2025-01-23 at 8 13 34 PM" src="https://github.com/user-attachments/assets/6689859f-a460-4ef4-ae83-61a04356fb5a" />
 
 
-4. Create a Linux (Ubuntu) Virtual Machine
+**4. Create a Linux (Ubuntu) Virtual Machine**
 
     - Navigate to Virtual Machines.
 
@@ -85,7 +85,7 @@ This repository provides a guide to set up the necessary resources in Azure for 
 <img width="618" alt="Screenshot 2025-01-23 at 8 15 17 PM" src="https://github.com/user-attachments/assets/8cde4ee8-fef1-4186-a808-473033c8fa16" />
 
 
-5. Verify Setup
+**5. Verify Setup**
 
     - Ensure both VMs are in the same Virtual Network and Subnet.
 
